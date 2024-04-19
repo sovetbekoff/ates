@@ -7,7 +7,7 @@ import {
   getCurrentUser,
 } from "../../store/auth/userSlice";
 import { Link, useNavigate } from "react-router-dom";
-
+import "./loginForm.scss";
 const LoginForm: FC = () => {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
